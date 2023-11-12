@@ -30,8 +30,8 @@ url: https://fisun.cc # the base hostname & protocol for your site, e.g. http://
 linkedin_username: fisunoleksandr
 
 # Build settings
-# theme: minima
-remote_theme: pages-themes/cayman@v0.2.0 # theme page https://github.com/pages-themes/cayman
+theme: minima
+# remote_theme: pages-themes/cayman@v0.2.0 # theme page https://github.com/pages-themes/cayman
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

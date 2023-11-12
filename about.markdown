@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
 ---
 
 ## Security Architect | Risk Mitigation Expert | Technology Enthusiast
 
-Welcome to my digital space, where the intersection of technology and security forms the core of my professional ethos.
+Welcome to my digital space, where the intersection of technology and security forms the core of my professional ethos.  
+My name is Oleksandr Fisun.
 
 ### My Philosophy
 
