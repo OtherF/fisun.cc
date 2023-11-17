@@ -13,7 +13,7 @@ Welcome to my professional portfolio. I am Oleksandr Fisun, a seasoned Cybersecu
 
 ## Certifications
 
-Check out on [Credly] (https://www.credly.com/users/oleksandr-fisun)
+Check out on [Credly](https://www.credly.com/users/oleksandr-fisun){:target="_blank"}
 
 ## Career Achievements
 
