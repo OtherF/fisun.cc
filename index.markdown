@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Oleksandr Fisun - Cybersecurity Manager"
 ---
 
 # Oleksandr Fisun: Leading Cybersecurity with Expertise and Innovation
