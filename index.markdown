@@ -1,8 +1,7 @@
 ---
 layout: home
+title: Oleksandr Fisun: Leading Cybersecurity with Expertise and Innovation
 ---
-
-# Oleksandr Fisun: Leading Cybersecurity with Expertise and Innovation
 
 Welcome to my professional portfolio. I am Oleksandr Fisun, a seasoned Cybersecurity Manager specializing in threat analysis, incident response, and robust solution delivery. With a career dedicated to fortifying digital defenses, I bring a strategic and technical edge to cybersecurity.
 
@@ -32,9 +31,3 @@ Welcome to my professional portfolio. I am Oleksandr Fisun, a seasoned Cybersecu
 ## Let's Connect
 
 I am passionate about enhancing cybersecurity measures and sharing knowledge in this ever-evolving field. If you're interested in collaboration or wish to learn more, feel free to reach out.
-
----
-
-Stay updated on my latest projects and insights in cybersecurity. Subscribe below.
-
-[Subscribe via RSS](/feed.xml)
