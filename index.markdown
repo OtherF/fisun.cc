@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 # Oleksandr Fisun: Leading Cybersecurity with Expertise and Innovation
