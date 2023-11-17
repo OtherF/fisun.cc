@@ -13,10 +13,7 @@ Welcome to my professional portfolio. I am Oleksandr Fisun, a seasoned Cybersecu
 
 ## Certifications
 
-- Certified Information Systems Security Professional (CISSP)
-- CompTIA PenTest+
-- ITIL® Foundation Certificate in IT Service Management
-- CompTIA Security+ (SY0-501)
+Check out on [Credly] (https://www.credly.com/users/oleksandr-fisun)
 
 ## Career Achievements
 
