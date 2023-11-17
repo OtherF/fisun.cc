@@ -1,8 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
----
 layout: home
 title: "Oleksandr Fisun - Cybersecurity Manager"
 ---
@@ -37,8 +33,6 @@ Welcome to my professional portfolio. I am Oleksandr Fisun, a seasoned Cybersecu
 ## Let's Connect
 
 I am passionate about enhancing cybersecurity measures and sharing knowledge in this ever-evolving field. If you're interested in collaboration or wish to learn more, feel free to reach out.
-
-[Contact Me](/contact)
 
 ---
 
