@@ -1,6 +1,9 @@
 ---
 layout: page
-permalink: /about/
+title: About
+{% comment %}
+{% permalink: /about/ %}
+{% endcomment %}
 ---
 
 ## Security Architect | Risk Mitigation Expert | Technology Enthusiast
