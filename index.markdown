@@ -9,7 +9,7 @@ Welcome to my professional portfolio. I am Oleksandr Fisun, a seasoned Cybersecu
 
 - **Current Role:** Cybersecurity Manager at Ansell. Leading the charge in network security and technical infrastructure management.
 - **Notable Skills:** Forensic Analysis, CyberOps, Risk Management.
-- **Languages:** Fluent in Russian, English, Polish, and Ukrainian.
+- **Languages:** Fluent in English, Ukrainian, Polish and Russian.
 
 ## Certifications
 
@@ -28,3 +28,4 @@ Check out on [Credly](https://www.credly.com/users/oleksandr-fisun){:target="_bl
 ## Let's Connect
 
 I am passionate about enhancing cybersecurity measures and sharing knowledge in this ever-evolving field. If you're interested in collaboration or wish to learn more, feel free to reach out.
+
