@@ -1,9 +1,10 @@
 ---
 layout: home
-title: "Oleksandr Fisun: Leading Cybersecurity with Expertise and Innovation"
+title: "Oleksandr Fisun: Cybersecurity Essentials Recommended Reading"
+menu_title: Books
 ---
 
-Welcome to my professional portfolio. I am Oleksandr Fisun, a seasoned Cybersecurity Manager specializing in threat analysis, incident response, and robust solution delivery. With a career dedicated to fortifying digital defenses, I bring a strategic and technical edge to cybersecurity.
+Welcome to my curated collection of essential readings in cybersecurity. On this page, you'll find a hand-picked selection of books that I highly recommend for anyone preparing for cybersecurity certification exams or seeking deeper insights into the field. These books range from technical guides to thought-provoking reads that have significantly influenced my approach to cybersecurity. Whether you're a beginner or a seasoned professional, these resources are invaluable tools to broaden your knowledge and skills. Happy reading!
 
 ## Professional Highlights
 
