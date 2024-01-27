@@ -6,47 +6,58 @@ body, html {
     align-items: center;
     background: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 18pt;
-    text-align: center;
-}
-
-#line {
-    position: relative;
-    width: 0;
-    height: 2px;
-    background: #000;
-    animation: lineExpand 0.5s forwards;
+    overflow: hidden; /* Prevents scrolling on smaller screens */
 }
 
 #fisun-cc, #cyber-consulting {
+    font-size: 48pt; /* Fixed font size */
     position: absolute;
-    white-space: nowrap;
-    opacity: 0;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal positioning */
+    opacity: 0; /* Start with text invisible */
 }
 
 #fisun-cc {
-    top: -20px;
+    top: calc(50% - 82px); /* Adjust vertical position to be above the center */
     font-weight: 300;
-    animation: slideFadeInUp 1s 1s forwards;
 }
 
 #cyber-consulting {
-    bottom: -20px;
+    top: calc(50%); /* Adjust vertical position to be below the center */
     font-weight: 100;
-    animation: slideFadeInDown 1s 1s forwards;
 }
 
-@keyframes lineExpand {
-    from { width: 0; }
-    to { width: 100%; }
+#line {
+    position: absolute;
+    top: 50%; /* Center the line vertically */
+    left: 50%; /* Center the line horizontally */
+    transform: translate(-50%, -1px); /* Fine-tune line's vertical positioning */
+    background-color: #000;
+    height: 2px;
+    width: 0; /* Start with line width as 0 */
+    opacity: 0; /* Line starts invisible */
+    transition: width 2s, opacity 2s; /* Transition for line appearance and width change */
 }
 
-@keyframes slideFadeInUp {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+/* Keyframes for text fade-in and slide */
+@keyframes fadeInAndSlide {
+    0% { 
+        opacity: 0; 
+        transform: translate(-50%, 10px); /* Start just below the final position */
+    }
+    100% { 
+        opacity: 1; 
+        transform: translate(-50%, 0); /* Slide to final position */
+    }
 }
 
-@keyframes slideFadeInDown {
-    from { transform: translateY(-20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+@keyframes fadeInAndSlideDown {
+    0% { 
+        opacity: 0; 
+        transform: translate(-50%, -10px); /* Start just above the final position */
+    }
+    100% { 
+        opacity: 1; 
+        transform: translate(-50%, 0); /* Slide to final position */
+    }
 }
