@@ -5,7 +5,8 @@ body, html {
     justify-content: center;
     align-items: center;
     background: #fff;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
 }
 
 #line {
@@ -24,14 +25,14 @@ body, html {
 
 #fisun-cc {
     top: -20px;
-    font-weight: 400;
-    animation: slideFadeInUp 0.5s 0.5s forwards;
+    font-weight: 300;
+    animation: slideFadeInUp 1s 1s forwards;
 }
 
 #cyber-consulting {
     bottom: -20px;
     font-weight: 100;
-    animation: slideFadeInDown 0.5s 0.5s forwards;
+    animation: slideFadeInDown 1s 1s forwards;
 }
 
 @keyframes lineExpand {
