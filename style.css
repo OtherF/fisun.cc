@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#line {
+    position: relative;
+    width: 0;
+    height: 2px;
+    background: #000;
+    animation: lineExpand 0.5s forwards;
+}
+
+#fisun-cc, #cyber-consulting {
+    position: absolute;
+    white-space: nowrap;
+    opacity: 0;
+}
+
+#fisun-cc {
+    top: -20px;
+    font-weight: 400;
+    animation: slideFadeInUp 0.5s 0.5s forwards;
+}
+
+#cyber-consulting {
+    bottom: -20px;
+    font-weight: 100;
+    animation: slideFadeInDown 0.5s 0.5s forwards;
+}
+
+@keyframes lineExpand {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes slideFadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideFadeInDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
