@@ -35,16 +35,6 @@
                 line.style.transform = 'translate(-50%, -50%)'; // Center the line
             }, 1000); // Delay of the text animations
         });
-    </script>
-    <script>
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/service-worker.js')
-            .then(function(registration) {
-              console.log('Service Worker registered with scope:', registration.scope);
-            }).catch(function(error) {
-              console.log('Service Worker registration failed:', error);
-            });
-        }
-      </script>      
+    </script>     
 </body>
 </html>
