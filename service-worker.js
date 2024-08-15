@@ -12,18 +12,18 @@ self.addEventListener('install', event => {
         // Clone the response to modify headers
         let responseClone = response.clone();
         let modifiedHeaders = new Headers(responseClone.headers);
-  
+        
+        // Add Report-To header
+        modifiedHeaders.append(
+            'Report-To',
+            '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://fisun.report-uri.com/a/d/g"}],"include_subdomains":true}'
+          );
         // Add CSP-Report-Only header
+        
         modifiedHeaders.append(
           'Content-Security-Policy-Report-Only',
           "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-to default"
-        );
-  
-        // Add Report-To header
-        modifiedHeaders.append(
-          'Report-To',
-          '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://fisun.report-uri.com/a/d/g"}],"include_subdomains":true}'
-        );
+        );      
   
         // Create a new response with the modified headers
         return new Response(responseClone.body, {
