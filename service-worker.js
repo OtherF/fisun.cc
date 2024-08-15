@@ -16,7 +16,7 @@ self.addEventListener('install', event => {
         // Add CSP-Report-Only header
         modifiedHeaders.append(
           'Content-Security-Policy-Report-Only',
-          "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-to default; report-uri https://fisun.report-uri.com/r/d/csp/wizard"
+          "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-to default"
         );
   
         // Add Report-To header
